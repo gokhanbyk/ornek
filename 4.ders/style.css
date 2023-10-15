@@ -1,0 +1,65 @@
+/* HTML RESETLEME */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ana {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.kutu1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.kutu1-1 {
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.kutu2 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 103px;
+    padding: 5px 0 0 30px;
+}
+
+.kutu2-1 {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.kutu3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 208px;
+    padding-left: 5px;
+    padding-top: 60px;
+}
+
+.kutu3-1 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border: 2px solid black;
+
+}

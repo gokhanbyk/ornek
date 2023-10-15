@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius örnek</title>
+    <style>
+
+        /* HTML RESETLEME */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* HTML RESETLEME */
+
+        .item {
+            height: 150px;
+            width: 200px;
+            background-color: lightblue;
+            /* Kısa versiyon */
+            border: 3px solid black;
+
+            /* uzun versiyon */
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+
+            /* border radius */
+
+            /* okuma sırası -> sol-üst, sağ-üst, sağ-alt, sol-alt */
+            border-radius: 7px 15px 20px 25px;
+
+            /* okuma sırası -> sol-üst ve sağ-alt, sağ-üst ve sol-alt */
+            border-radius: 10px 20px;
+
+            /* margin-left: 50px;
+            margin-top: 20px;
+            margin: 50px;
+            padding: 50px;
+            box-sizing: border-box; */
+        }
+
+        .item2 {
+            height: 25px;
+            width: 50px;
+            background-color: bisque;
+            /* margin: 20px 5px 10px 17px; */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="item">
+        <div class="item2"></div>
+    </div>
+
+
+</body>
+</html>
